@@ -1,0 +1,20 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1.5px solid #262c3a;
+  height: 100%;
+  width: 20vh;
+  margin: 2%;
+  border-radius: 4px;
+  box-shadow: 10px 5px 5px #262c3a;
+}
+
+.Card > img {
+  width: 100%;
+}
+
+.Card:hover {
+  width: 250px;
+  transition: 1s;
+}
