@@ -8,13 +8,15 @@
   margin: 2%;
   border-radius: 4px;
   box-shadow: 10px 5px 5px #262c3a;
+  background-color: aliceblue;
 }
 
 .Card > img {
   width: 100%;
 }
 
-.Card:hover {
-  width: 250px;
-  transition: 1s;
+.Text {
+  color: #262c3a;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
 }
